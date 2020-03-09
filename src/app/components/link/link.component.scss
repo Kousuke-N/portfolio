@@ -1,0 +1,7 @@
+a {
+  text-decoration-color: #000;
+  &:link,
+  &:visited {
+    color: black;
+  }
+}
