@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 16px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.item-label {
+  min-width: 80px;
+}

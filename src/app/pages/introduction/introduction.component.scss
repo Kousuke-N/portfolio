@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+.thumbnail {
+  width: 180px;
+  margin-right: 100px;
+}
+app-introduction-content {
+  width: 40%;
+}
