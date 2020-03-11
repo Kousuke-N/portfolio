@@ -23,7 +23,7 @@ export class WorkService {
           いろはにほへとチリぬるを
           いろはにほへとチリぬるを
           `,
-        date: new Date('20200301'),
+        date: new Date(2020, 2, 1),
         result: '優勝',
         thumbnail: `${this.thumbnailBasePath}/icon.jpg`,
         cateogryIds: ['contest']
@@ -37,7 +37,7 @@ export class WorkService {
           いろはにほへとチリぬるを
           いろはにほへとチリぬるを
           `,
-        date: new Date('20200301'),
+        date: new Date(2020, 2, 1),
         result: '優勝',
         thumbnail: `${this.thumbnailBasePath}/icon.jpg`,
         cateogryIds: ['contest']
@@ -51,7 +51,7 @@ export class WorkService {
           いろはにほへとチリぬるを
           いろはにほへとチリぬるを
           `,
-        date: new Date('20200301'),
+        date: new Date(2020, 2, 1),
         result: '優勝',
         thumbnail: `${this.thumbnailBasePath}/icon.jpg`,
         cateogryIds: ['contest']
