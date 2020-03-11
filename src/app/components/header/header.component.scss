@@ -8,4 +8,9 @@
   cursor: pointer;
   margin-right: 16px;
   font-size: 20px;
+  transition: ease 0.3s;
+  &:hover {
+    transform: scale(1.1);
+    opacity: 0.6;
+  }
 }
