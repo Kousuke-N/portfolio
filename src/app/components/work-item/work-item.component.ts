@@ -10,8 +10,6 @@ export class WorkItemComponent implements OnInit {
   @Input() work: Work;
   constructor() { }
 
-  ngOnInit(): void {
-    console.log(this.work)
-  }
+  ngOnInit(): void {}
 
 }

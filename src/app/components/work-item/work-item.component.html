@@ -1,2 +1,3 @@
-<img [src]="work.thumbnail" />
-<div class="title">{{ work.title }}</div>
+<img class="thumbnail" [src]="work?.thumbnail" />
+<div class="title">{{ work?.title }}</div>
+<div class="date">{{ work?.date | momentDate: "YYYY.MM.DD" }}</div>
