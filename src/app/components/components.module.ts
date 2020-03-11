@@ -5,6 +5,8 @@ import { IntroductionContentComponent } from './introduction-content/introductio
 import { LinkComponent } from './link/link.component';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { WorkItemComponent } from './work-item/work-item.component';
+import { PipesModule } from '@/pipes/pipes.module';
 
 @NgModule({
   declarations: [
@@ -12,8 +14,10 @@ import { RouterModule } from '@angular/router';
     FooterComponent,
     HeaderComponent,
     LinkComponent,
+    WorkItemComponent
   ],
   imports: [
+    PipesModule,
     CommonModule,
     RouterModule
   ],
@@ -21,7 +25,8 @@ import { RouterModule } from '@angular/router';
     IntroductionContentComponent,
     FooterComponent,
     HeaderComponent,
-    LinkComponent
+    LinkComponent,
+    WorkItemComponent
   ]
 })
 export class ComponentsModule {}
