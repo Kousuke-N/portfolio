@@ -1,0 +1,19 @@
+$item-width: 200px;
+$item-margin: 16px;
+:host {
+  display: flex;
+  justify-content: center;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+.items {
+  display: flex;
+  width: 80%;
+  max-width: calc($item-width * 4 + $item-margin * 2 * 3);
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.item {
+  width: $item-width;
+  margin: $item-margin;
+}

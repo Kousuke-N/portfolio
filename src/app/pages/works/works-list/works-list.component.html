@@ -1,1 +1,21 @@
-<p>works-list works!</p>
+<div class="items">
+  <ng-container *ngFor="let work of works">
+    <app-work-item
+      class="item"
+      [work]="work"
+      [routerLink]="work?.id"
+    ></app-work-item>
+  </ng-container>
+  <ng-container *ngFor="let work of works">
+    <app-work-item class="item" [work]="work"></app-work-item>
+  </ng-container>
+  <ng-container *ngFor="let work of works">
+    <app-work-item class="item" [work]="work"></app-work-item>
+  </ng-container>
+  <ng-container *ngFor="let work of works">
+    <app-work-item class="item" [work]="work"></app-work-item>
+  </ng-container>
+  <app-work-item class="item"></app-work-item>
+  <app-work-item class="item"></app-work-item>
+  <app-work-item class="item"></app-work-item>
+</div>
